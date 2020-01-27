@@ -1,6 +1,7 @@
 # Albums
 
-A simple [Angular 8](https://angular.io/) application that shows albums and photos collection using API calls, with the ability to filter by the title of the albums and photos.
+A simple [Angular 8](https://angular.io/) application that shows albums and photos collection using API calls,</br>
+with the ability to filter by the title of the albums and photos.
 
 ## Full description
 
