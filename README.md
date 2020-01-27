@@ -1,27 +1,48 @@
 # Albums
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+A simple [Angular 8](https://angular.io/) application that shows albums and photos collection using API calls, with the ability to filter by the title of the albums and photos.
+
+## Full description
+
+This project shows albums collection with the ability to filter by the title of the albums.
+When clicking on some album, the user will be redirected to specific album page. </br>
+The specific album page shows photos collection related to this album with the ability to filter by the title of the photo. </br>
+The specific album page includes a "back" button to go back to the albums page. </br>
+When clicking on some photo, the user will be redirected to the full version of the photo. </br>
+There are spinner element presented while loading the list of albums and list of photos from the server.
+
+## Screenshots
+
+![image](layouts/albums-page.png?raw=true "Albums")
+
+![image](layouts/photos-page.png?raw=true "Photos")
+
+## Tech/framework used
+
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+
+- [Bootstrap](https://getbootstrap.com/)
+
+- REST API request
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## API Reference
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- https://jsonplaceholder.typicode.com/albums
 
-## Build
+- https://jsonplaceholder.typicode.com/photos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Link to the website that hosting the project
 
-## Running unit tests
+https://dimakol.github.io/Albums/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Credits
 
-## Running end-to-end tests
+https://dev.to/duomly/how-to-build-an-angular-8-application-with-api-request-in-10-minutes-34m8
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## License
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT © Dima Kolyas
