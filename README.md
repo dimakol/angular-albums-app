@@ -4,7 +4,7 @@ A simple [Angular 8](https://angular.io/) application that shows albums and phot
 
 ## Full description
 
-This project shows albums collection with the ability to filter by the title of the albums.
+This project shows albums collection with the ability to filter by the title of the albums. </br>
 When clicking on some album, the user will be redirected to specific album page. </br>
 The specific album page shows photos collection related to this album with the ability to filter by the title of the photo. </br>
 The specific album page includes a "back" button to go back to the albums page. </br>
