@@ -1,0 +1,23 @@
+<div>
+  <button routerLink="/" class="btn btn-light">Go back</button>
+  <h3>Album {{albumId}}</h3>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search by Title"
+            style="width:300px" [(ngModel)]="setSearchTerm" />
+  </div>
+  <div class="row">
+    <div class="col-md-3 photo" *ngFor="let photo of filteredPhotos">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{photo.title}}</h5>
+        </div>
+        <a href={{photo.url}}>
+          <img class="card-img-bottom" src={{photo.thumbnailUrl}} class="img-fluid" alt="Card image" width="100%" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <ngx-spinner bdColor="rgba(51, 51, 51, 0.8)" size="default" type="ball-spin-clockwise">  
+    <p style="color: white">Please Wait. </p>  
+  </ngx-spinner>   
+</div>

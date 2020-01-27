@@ -1,0 +1,20 @@
+<div>
+  <h3>Albums collection</h3>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search by Title"
+            style="width:300px" [(ngModel)]="setSearchTerm" />
+  </div>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let album of filteredAlbums">
+      <div class="card">
+        <div class="card-body">
+          <a routerLink="album/{{album.id}}">{{album.title}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ngx-spinner bdColor="rgba(51, 51, 51, 0.8)" size="default" type="ball-spin-clockwise">  
+    <p style="color: white">Please Wait. </p>  
+  </ngx-spinner>   
+</div>
+
