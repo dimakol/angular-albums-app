@@ -1,6 +1,6 @@
 # Albums
 
-A simple [Angular 8](https://angular.io/) application that shows albums and photos collection using API calls,</br>
+A simple [Angular 11](https://angular.io/) application that shows albums and photos collection using API calls,</br>
 with the ability to filter by the title of the albums and photos.
 
 ## Full description
@@ -20,7 +20,7 @@ There are spinner element presented while loading the list of albums and list of
 
 ## Tech/framework used
 
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 - [Bootstrap](https://getbootstrap.com/)
 
