@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/dimakol/angular-albums-app.git"
   },
-  "keywords": ["angular-11", "Bootstrap", "REST API"],
+  "keywords": ["angular-11", "bootstrap", "rest-api"],
   "private": true,
   "author": "Dima Kolyas",
   "license": "MIT",
