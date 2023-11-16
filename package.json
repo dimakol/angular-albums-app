@@ -1,5 +1,5 @@
 {
-  "name": "albums",
+  "name": "angular-albums-app",
   "description": "A simple Angular 11 application that shows albums and photos collection using API calls, with the ability to filter by the title of the albums and photos.",
   "version": "1.0.0",
   "main": "main.ts",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dimakol/Albums.git"
+    "url": "https://github.com/dimakol/angular-albums-app.git"
   },
-  "keywords": [],
+  "keywords": ["angular-11", "Bootstrap", "REST API"],
   "private": true,
   "author": "Dima Kolyas",
   "license": "MIT",
-  "homepage": "https://github.com/dimakol/Albums",
+  "homepage": "https://github.com/dimakol/angular-albums-app",
   "dependencies": {
     "@angular/animations": "~11.0.5",
     "@angular/common": "~11.0.5",

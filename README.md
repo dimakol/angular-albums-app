@@ -1,4 +1,4 @@
-# Albums
+# Albums App
 
 A simple [Angular 11](https://angular.io/) application that shows albums and photos collection using API calls,</br>
 with the ability to filter by the title of the albums and photos.
