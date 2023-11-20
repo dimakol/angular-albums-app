@@ -20,7 +20,7 @@ There are spinner element presented while loading the list of albums and list of
 
 ## Tech/framework used
 
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.19.
 
 - [Bootstrap](https://getbootstrap.com/)
 
